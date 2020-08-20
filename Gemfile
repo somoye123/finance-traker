@@ -9,6 +9,7 @@ gem 'rails', '~> 6.0.3', '>= 6.0.3.2'
 gem 'devise'
 gem 'twitter-bootstrap-rails'
 gem 'jquery-rails'
+gem 'devise-bootstrap-views'
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
 # Use SCSS for stylesheets
