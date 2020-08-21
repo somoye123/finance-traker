@@ -18,4 +18,8 @@ class User < ApplicationRecord
     (user_stocks.count < 10)
   end
   
+  def can_add_stock?(ticker_symbol)
+    under_stock_limit? && !stock_already_added?(ticker_symbol)
+  end
+  
 end
